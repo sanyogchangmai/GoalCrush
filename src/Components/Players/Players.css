@@ -1,0 +1,13 @@
+.player {
+  background-color: #212121;
+}
+.games,
+.goals,
+.rating {
+  /* background-color: #3d3d3d; */
+  background-color: #171717;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.league-select {
+  background-color: #3d3d3d;
+}

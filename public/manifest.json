@@ -1,25 +1,54 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
+  "name": "Goal Crush",
+  "short_name": "Goal Crush",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#3d3d3d",
+  "theme_color": "#171717",
+  "orientation": "portrait-primary",
+  "icons": [
+      {
+          "src": "/icons/maskable_icon_x48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+          
+      },
+      {
+        "src": "/icons/maskable_icon_x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/maskable_icon_x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/icons/maskable_icon_x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/icons/maskable_icon_x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/icons/maskable_icon_x384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "/icons/maskable_icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+          "src": "/icons/maskable_icon.png",
+          "type": "image/png",
+          "sizes": "930x930",
+          "purpose": "any maskable"
+        }
+    ]
+
 }

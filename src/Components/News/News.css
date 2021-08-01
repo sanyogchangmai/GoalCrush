@@ -1,0 +1,12 @@
+.news-block {
+  background-color: #1a1c20;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.news-search {
+  background-color: #1a1c20;
+  color: #ffffff;
+  border-radius: 8px 0 0 8px;
+}
+.news-search-btn {
+  border-radius: 0 8px 8px 0;
+}
