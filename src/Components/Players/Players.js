@@ -10,7 +10,7 @@ const Players = () => {
 
     function handleChange(e){
         setIsPending(true);
-        const API_URL = `https://v3.football.api-sports.io/players/topscorers?season=2020&league=${e.target.value}`;
+        const API_URL = `https://v3.football.api-sports.io/players/topscorers?season=2021&league=${e.target.value}`;
                 fetch(API_URL, {
             "method": "GET",
             "headers": {
