@@ -42,7 +42,7 @@ const Recent = () => {
 
 
         setIsPending(true);
-        const API_URL = "https://v3.football.api-sports.io/fixtures?season=2020&league=140&status=ft&timezone=Asia/Kolkata";
+        const API_URL = "https://v3.football.api-sports.io/fixtures?season=2021&league=140&status=ft&timezone=Asia/Kolkata";
                 fetch(API_URL, {
             "method": "GET",
             "headers": {
@@ -68,7 +68,7 @@ const Recent = () => {
     function handleFixtureLeague(e){
         setIsPending(true);
         console.log("League is " + e.target.value);
-        const API_URL = `https://v3.football.api-sports.io/fixtures?season=2020&league=${e.target.value}&status=ft&timezone=Asia/Kolkata`;
+        const API_URL = `https://v3.football.api-sports.io/fixtures?season=2021&league=${e.target.value}&status=ft&timezone=Asia/Kolkata`;
         fetch(API_URL, {
     "method": "GET",
     "headers": {
